@@ -1,0 +1,48 @@
+21:42:38:251	e5e4	Check and remove old log files...
+21:42:38:252	e5e4	args: -epool us2.ethermine.org:4444 -ewal 0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1 -epsw x -rxboost 1 
+21:42:38:252	e5e4	
+21:42:38:252	e5e4	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:42:38:252	e5e4	บ                Claymore's Dual GPU Miner - v15.0               บ
+21:42:38:253	e5e4	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:42:38:253	e5e4	บ                       Supercharged Edition                     บ
+21:42:38:253	e5e4	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:42:38:253	e5e4	
+21:42:38:253	e5e4	b755 
+21:42:38:455	e5e4	ETH: 1 pool is specified
+21:42:38:455	e5e4	Main Ethereum pool is us2.ethermine.org:4444
+21:42:38:456	e5e4	DCR: 0 pool is specified
+21:42:38:487	e5e4	OpenCL platform: NVIDIA CUDA
+21:42:38:488	e5e4	AMD OpenCL platform not found 
+21:42:38:556	e5e4	CUDA initializing...
+
+21:42:38:556	e5e4	NVIDIA Cards available: 1 
+21:42:38:557	e5e4	CUDA Driver Version/Runtime Version: 10.1/8.0
+21:42:38:557	e5e4	GPU #0: GeForce RTX 2080, 8192 MB available, 46 compute units, capability: 7.5  (pci bus 2:0:0)
+21:42:38:558	e5e4	Total cards: 1 
+21:42:42:562	e5e4	NVIDIA NVML library not found, temperature monitoring for NVIDIA GPUs disabled.
+21:42:42:562	e5e4	Driver is not installed! Trying to install it...
+21:42:42:565	e5e4	Driver is in use, try to start miner with "-driver uninstall" parameter.
+21:42:43:011	e5e4	SSL: Imported 50 certificates from local storage
+21:42:43:021	fd70	ETH: Stratum - connecting to 'us2.ethermine.org' <172.65.226.101> port 4444 (unsecure)
+21:42:43:112	e5e4	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:42:43:112	e5e4	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:42:43:113	e5e4	ETH: eth-proxy stratum mode
+21:42:43:113	e5e4	Watchdog enabled
+21:42:43:113	e5e4	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:42:43:114	e5e4	
+21:42:43:149	fd70	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+21:42:43:149	fd70	ETH: Stratum - Connected (us2.ethermine.org:4444) (unsecure)
+21:42:43:321	fd70	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:42:43:321	fd70	ETH: Authorized
+21:42:43:322	fd70	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:42:43:442	fd70	buf: {"id":0,"jsonrpc":"2.0","result":["0x9cce3ba0127faa79053d5a0d38767c712aa97d1e9a95e6f934efaa79aad36698","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891882"]}
+
+21:42:43:472	441c	Setting DAG epoch #299(3.34GB)...
+21:42:44:338	fd24	Quit...
+21:42:44:450	fd5c	Quit, please wait...
+21:42:45:115	e7a4	server: bind failed with error: 10038 (check -mport option value), next attempt in 20sec...
+21:42:45:467	441c	Setting DAG epoch #299 for GPU0
+21:42:45:468	441c	Create GPU buffer for GPU0

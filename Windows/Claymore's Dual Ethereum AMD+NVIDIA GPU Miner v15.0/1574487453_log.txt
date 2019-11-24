@@ -1,0 +1,93 @@
+21:37:33:769	f0f0	Check and remove old log files...
+21:37:33:769	f0f0	args: -epool us2.ethermine.org:4444 -ewal 0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1 -epsw x -rxboost 1 
+21:37:33:770	f0f0	
+21:37:33:770	f0f0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:37:33:770	f0f0	บ                Claymore's Dual GPU Miner - v15.0               บ
+21:37:33:771	f0f0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:37:33:771	f0f0	บ                       Supercharged Edition                     บ
+21:37:33:771	f0f0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:37:33:771	f0f0	
+21:37:33:772	f0f0	b755 
+21:37:33:972	f0f0	ETH: 1 pool is specified
+21:37:33:972	f0f0	Main Ethereum pool is us2.ethermine.org:4444
+21:37:33:972	f0f0	DCR: 0 pool is specified
+21:37:34:008	f0f0	OpenCL platform: NVIDIA CUDA
+21:37:34:009	f0f0	AMD OpenCL platform not found 
+21:37:34:076	f0f0	CUDA initializing...
+
+21:37:34:076	f0f0	NVIDIA Cards available: 1 
+21:37:34:077	f0f0	CUDA Driver Version/Runtime Version: 10.1/8.0
+21:37:34:077	f0f0	GPU #0: GeForce RTX 2080, 8192 MB available, 46 compute units, capability: 7.5  (pci bus 2:0:0)
+21:37:34:077	f0f0	Total cards: 1 
+21:37:38:082	f0f0	NVIDIA NVML library not found, temperature monitoring for NVIDIA GPUs disabled.
+21:37:38:082	f0f0	Driver is not installed! Trying to install it...
+21:37:38:085	f0f0	Driver is in use, try to start miner with "-driver uninstall" parameter.
+21:37:38:577	f0f0	SSL: Imported 50 certificates from local storage
+21:37:38:585	f480	ETH: Stratum - connecting to 'us2.ethermine.org' <172.65.226.101> port 4444 (unsecure)
+21:37:38:629	f480	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+21:37:38:630	f480	ETH: Stratum - Connected (us2.ethermine.org:4444) (unsecure)
+21:37:38:678	f0f0	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:37:38:678	f0f0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:37:38:679	f0f0	ETH: eth-proxy stratum mode
+21:37:38:679	f0f0	Watchdog enabled
+21:37:38:679	f0f0	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:37:38:680	f0f0	
+21:37:38:727	f480	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:37:38:727	f480	ETH: Authorized
+21:37:38:727	f480	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:37:38:794	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x1d86968cb98cffcfbb11dcd16165226cd47fdb666cefa0a410a20941dd73b7ed","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:38:816	f540	Setting DAG epoch #299(3.34GB)...
+21:37:39:583	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x0615b6c72f2a71320a5296a60bbd7e6bba25d2e2b43661dc5648529b163ba663","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:39:583	f480	ETH: 11/22/19-21:37:39 - New job from us2.ethermine.org:4444
+21:37:39:584	f480	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:39:584	f480	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:37:39:584	f480	ETH: GPU0 0.000 Mh/s
+21:37:40:829	f540	Setting DAG epoch #299 for GPU0
+21:37:40:830	f540	Create GPU buffer for GPU0
+21:37:43:688	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x59fa38992e304e20faa16a1b2aeca4401f48b9cdaf996bd9e7f9d70ee8cb3a13","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:43:688	f480	ETH: 11/22/19-21:37:43 - New job from us2.ethermine.org:4444
+21:37:43:688	f480	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:43:689	f480	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:37:43:690	f480	ETH: GPU0 0.000 Mh/s
+21:37:47:575	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x47c71c09a75f33553de247cd618d9e2be508f64f83dbb77bdf69bb4c2afde4d4","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:47:575	f480	ETH: 11/22/19-21:37:47 - New job from us2.ethermine.org:4444
+21:37:47:575	f480	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:47:576	f480	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:37:47:576	f480	ETH: GPU0 0.000 Mh/s
+21:37:48:811	f480	ETH: checking pool connection...
+21:37:48:811	f480	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:37:48:907	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x47c71c09a75f33553de247cd618d9e2be508f64f83dbb77bdf69bb4c2afde4d4","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:49:148	f540	GPU0 DAG creation time - 8209 ms
+21:37:49:149	f540	Setting DAG epoch #299 for GPU0 done
+21:37:51:599	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x4012a15831e6ff776333431c96b3bf481a55e5eb26d201ec898655d810513d17","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:51:599	f480	ETH: 11/22/19-21:37:51 - New job from us2.ethermine.org:4444
+21:37:51:599	f480	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:51:600	f480	ETH - Total Speed: 37.312 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:37:51:600	f480	ETH: GPU0 37.312 Mh/s
+21:37:55:591	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x15cc66f6263f5a3d562d5b5a012dc90b3db6f2725a4d4c858dda001cc226089c","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:55:591	f480	ETH: 11/22/19-21:37:55 - New job from us2.ethermine.org:4444
+21:37:55:591	f480	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:55:591	f480	ETH - Total Speed: 37.126 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:37:55:591	f480	ETH: GPU0 37.126 Mh/s
+21:37:58:811	f480	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2395087", "0x000000000000000000000000000000000000000000000000000000000182cc84"]}
+
+21:37:58:827	f480	ETH: checking pool connection...
+21:37:58:827	f480	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:37:58:867	f480	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:37:58:885	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0x15cc66f6263f5a3d562d5b5a012dc90b3db6f2725a4d4c858dda001cc226089c","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+
+21:37:59:566	f480	buf: {"id":0,"jsonrpc":"2.0","result":["0xe37dc23669f09b7e33c5450f06a1f3efd6b19e300428799b403d0c0db06b9f69","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891870"]}
+

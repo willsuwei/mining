@@ -1,0 +1,185 @@
+21:34:47:438	e200	Check and remove old log files...
+21:34:47:439	e200	args: -epool us2.ethermine.org:4444 -ewal 0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1 -epsw x -rxboost 1 
+21:34:47:439	e200	
+21:34:47:439	e200	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:34:47:439	e200	บ                Claymore's Dual GPU Miner - v15.0               บ
+21:34:47:440	e200	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:34:47:440	e200	บ                       Supercharged Edition                     บ
+21:34:47:440	e200	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:34:47:441	e200	
+21:34:47:441	e200	b755 
+21:34:47:642	e200	ETH: 1 pool is specified
+21:34:47:642	e200	Main Ethereum pool is us2.ethermine.org:4444
+21:34:47:642	e200	DCR: 0 pool is specified
+21:34:47:674	e200	OpenCL platform: NVIDIA CUDA
+21:34:47:675	e200	AMD OpenCL platform not found 
+21:34:47:745	e200	CUDA initializing...
+
+21:34:47:746	e200	NVIDIA Cards available: 1 
+21:34:47:746	e200	CUDA Driver Version/Runtime Version: 10.1/8.0
+21:34:47:746	e200	GPU #0: GeForce RTX 2080, 8192 MB available, 46 compute units, capability: 7.5  (pci bus 2:0:0)
+21:34:47:747	e200	Total cards: 1 
+21:34:51:754	e200	NVIDIA NVML library not found, temperature monitoring for NVIDIA GPUs disabled.
+21:34:51:754	e200	Driver is not installed! Trying to install it...
+21:34:51:757	e200	Driver is in use, try to start miner with "-driver uninstall" parameter.
+21:34:52:238	e200	SSL: Imported 50 certificates from local storage
+21:34:52:288	e048	ETH: Stratum - connecting to 'us2.ethermine.org' <172.65.226.101> port 4444 (unsecure)
+21:34:52:334	e048	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+21:34:52:335	e048	ETH: Stratum - Connected (us2.ethermine.org:4444) (unsecure)
+21:34:52:340	e200	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:34:52:340	e200	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:34:52:341	e200	ETH: eth-proxy stratum mode
+21:34:52:341	e200	Watchdog enabled
+21:34:52:341	e200	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:34:52:342	e200	
+21:34:52:423	e048	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:34:52:423	e048	ETH: Authorized
+21:34:52:424	e048	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:34:52:477	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x62b7c057d2324d81b56154deeca940638e6b07677bf6bbdfdd54290142a1bf08","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891863"]}
+
+21:34:52:494	98d8	Setting DAG epoch #299(3.34GB)...
+21:34:54:191	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x821f78da8e5c393dee124241884def692b2c22c363fcda2cfe01ddf697b5cad3","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891863"]}
+
+21:34:54:192	e048	ETH: 11/22/19-21:34:54 - New job from us2.ethermine.org:4444
+21:34:54:192	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:34:54:192	e048	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:34:54:192	e048	ETH: GPU0 0.000 Mh/s
+21:34:54:513	98d8	Setting DAG epoch #299 for GPU0
+21:34:54:514	98d8	Create GPU buffer for GPU0
+21:34:58:295	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0xb1bd3252932ef678a7fb2606c9fe68ba75c38a89b7e402d6217c46ddf1eab6c1","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891863"]}
+
+21:34:58:295	e048	ETH: 11/22/19-21:34:58 - New job from us2.ethermine.org:4444
+21:34:58:296	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:34:58:296	e048	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:34:58:297	e048	ETH: GPU0 0.000 Mh/s
+21:35:02:190	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x631017d9944826aa9f700c093de9cb8939c1b4dc3ccaf1756b356d239349a620","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891863"]}
+
+21:35:02:190	e048	ETH: 11/22/19-21:35:02 - New job from us2.ethermine.org:4444
+21:35:02:190	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:35:02:191	e048	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:35:02:191	e048	ETH: GPU0 0.000 Mh/s
+21:35:02:482	e048	ETH: checking pool connection...
+21:35:02:482	e048	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:35:02:554	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x631017d9944826aa9f700c093de9cb8939c1b4dc3ccaf1756b356d239349a620","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891863"]}
+
+21:35:02:968	98d8	GPU0 DAG creation time - 8344 ms
+21:35:02:968	98d8	Setting DAG epoch #299 for GPU0 done
+21:35:03:638	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x59aea2f1800781364dde228be8fd211c1f3b2e18d61ff7abe16e678b34104724","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891864"]}
+
+21:35:03:638	e048	ETH: 11/22/19-21:35:03 - New job from us2.ethermine.org:4444
+21:35:03:638	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:35:03:639	e048	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:35:03:641	e048	ETH: GPU0 0.000 Mh/s
+21:35:03:900	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0xb0e2f40970f7a9638a7549d46062061f8fa1cbd26dc307bbf6851f2d4a92e315","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891864"]}
+
+21:35:03:900	e048	ETH: 11/22/19-21:35:03 - New job from us2.ethermine.org:4444
+21:35:03:900	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:35:03:901	e048	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:35:03:901	e048	ETH: GPU0 0.000 Mh/s
+21:35:07:885	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x7577b46fa234acb31fa1a43e4e92fbbc1144d9ce6c9500c5ac7054318c5b5104","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891864"]}
+
+21:35:07:885	e048	ETH: 11/22/19-21:35:07 - New job from us2.ethermine.org:4444
+21:35:07:885	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:35:07:886	e048	ETH - Total Speed: 34.338 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:35:07:886	e048	ETH: GPU0 34.338 Mh/s
+21:35:11:555	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x0e75eb2bc994a0995c115877ec30e75237cc4d939e4463ae19e6fcbf3d7dcf5b","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891865"]}
+
+21:35:11:555	e048	ETH: 11/22/19-21:35:11 - New job from us2.ethermine.org:4444
+21:35:11:555	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:35:11:556	e048	ETH - Total Speed: 34.383 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:35:11:557	e048	ETH: GPU0 34.383 Mh/s
+21:35:11:807	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x20e3a26667807df2c0fc32a2688438f01e86bca307cb9eb21224492b56f49164","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891865"]}
+
+21:35:11:807	e048	ETH: 11/22/19-21:35:11 - New job from us2.ethermine.org:4444
+21:35:11:807	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:35:11:808	e048	ETH - Total Speed: 34.383 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:35:11:808	e048	ETH: GPU0 34.383 Mh/s
+21:35:12:481	e048	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x20ca2e8", "0x000000000000000000000000000000000000000000000000000000009867abf2"]}
+
+21:35:12:497	e048	ETH: checking pool connection...
+21:35:12:497	e048	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:35:12:539	e048	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+21:35:12:551	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x20e3a26667807df2c0fc32a2688438f01e86bca307cb9eb21224492b56f49164","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891865"]}
+
+21:35:14:439	e048	buf: {"id":0,"jsonrpc":"2.0","result":["0x5279de01c0e63407c43c7b4afee1c78115bf07d57518a0af5a4db4632aaae244","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891866"]}
+
+21:35:17:832	e2a4	em hbt: 3391, fm hbt: 31, 
+21:36:24:565	96b8	checked ETH share on CPU, spent 3ms
+21:37:20:437	e048	ETH: 11/22/19-21:35:14 - New job from us2.ethermine.org:4444
+21:37:20:437	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:20:437	96b8	sent: {"id":10,"method":"eth_submitWork","params":["0x1702c6508ab7b2b3","0x5279de01c0e63407c43c7b4afee1c78115bf07d57518a0af5a4db4632aaae244","0x6da893814257c1715a5c9b9fc783edd6d28924d62ebeb72279b52891a1ab45b8"]}
+
+21:37:20:437	e2a4	watchdog - thread 0 (gpu0), hb time 578
+21:37:20:438	e2a4	watchdog - thread 1 (gpu0), hb time 56953
+21:37:20:437	96b8	ETH: put share nonce 1702c6508ab7b2b3
+21:37:20:438	e048	ETH - Total Speed: 37.357 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+21:37:20:438	e048	ETH: GPU0 37.357 Mh/s
+21:37:20:439	e048	ETH: 11/22/19-21:37:20 - SHARE FOUND - (GPU 0)
+21:37:20:439	e048	remove first packet 11938
+21:37:20:439	e048	remove first packet 11684
+21:37:20:439	e048	remove first packet 11430
+21:37:20:439	e048	remove first packet 11176
+21:37:20:440	e048	remove first packet 10922
+21:37:20:440	e048	remove first packet 10668
+21:37:20:440	e048	remove first packet 10414
+21:37:20:440	e048	remove first packet 10160
+21:37:20:440	e048	remove first packet 9906
+21:37:20:440	e048	remove first packet 9652
+21:37:20:441	e048	remove first packet 9398
+21:37:20:441	e048	remove first packet 9144
+21:37:20:441	e048	remove first packet 8890
+21:37:20:441	e048	remove first packet 8636
+21:37:20:441	e048	remove first packet 8382
+21:37:20:441	e048	remove first packet 8128
+21:37:20:442	e048	remove first packet 7874
+21:37:20:442	e048	remove first packet 7620
+21:37:20:442	e048	remove first packet 7366
+21:37:20:442	e048	remove first packet 7112
+21:37:20:442	e048	remove first packet 6858
+21:37:20:442	e048	remove first packet 6604
+21:37:20:442	e048	remove first packet 6350
+21:37:20:443	e048	remove first packet 6096
+21:37:20:443	e048	remove first packet 5842
+21:37:20:443	e048	remove first packet 5588
+21:37:20:443	e048	remove first packet 5334
+21:37:20:443	e048	remove first packet 5080
+21:37:20:443	e048	remove first packet 4826
+21:37:20:443	e048	remove first packet 4572
+21:37:20:444	e048	remove first packet 4318
+21:37:20:444	e048	remove first packet 4064
+21:37:20:444	e048	remove first packet 3810
+21:37:20:444	e048	remove first packet 3556
+21:37:20:444	e048	remove first packet 3302
+21:37:20:444	e048	remove first packet 3048
+21:37:20:445	e048	remove first packet 2794
+21:37:20:445	e048	remove first packet 2540
+21:37:20:445	e048	remove first packet 2286
+21:37:20:445	e048	remove first packet 2032
+21:37:20:445	e048	remove first packet 1778
+21:37:20:445	e048	remove first packet 1524
+21:37:20:445	e048	remove first packet 1270
+21:37:20:446	e048	remove first packet 1016
+21:37:20:446	e048	remove first packet 762
+21:37:20:446	e048	remove first packet 508
+21:37:20:446	e048	remove first packet 254
+21:37:20:446	e048	ETH: 11/22/19-21:37:20 - New job from us2.ethermine.org:4444
+21:37:20:447	e048	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:37:20:447	e048	ETH - Total Speed: 37.357 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:02
+21:37:20:447	e048	ETH: GPU0 37.357 Mh/s
+21:37:20:447	e048	ETH: checking pool connection...
+21:37:20:448	e048	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:37:20:448	e048	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x23a0537", "0x000000000000000000000000000000000000000000000000000000009867abf2"]}
+
+21:37:20:507	e048	buf: {"id":10,"jsonrpc": "2.0","result": false,"error": "Unrequested work provided"}
+
+21:37:20:507	e048	ETH: Share rejected (63 ms)!
+21:37:20:510	e048	Socket was closed remotely (by pool)
+21:37:20:510	e048	ETH: Connection lost, retry in 20 sec...
+21:37:28:731	e7f8	Quit...

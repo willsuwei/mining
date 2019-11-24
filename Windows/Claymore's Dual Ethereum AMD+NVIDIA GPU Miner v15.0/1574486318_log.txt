@@ -1,0 +1,67 @@
+21:18:38:178	f254	Check and remove old log files...
+21:18:38:179	f254	args: -epool eu1.ethermine.org:4444 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x -rxboost 1 
+21:18:38:179	f254	
+21:18:38:179	f254	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:18:38:179	f254	บ                Claymore's Dual GPU Miner - v15.0               บ
+21:18:38:180	f254	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:18:38:180	f254	บ                       Supercharged Edition                     บ
+21:18:38:180	f254	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:18:38:180	f254	
+21:18:38:180	f254	b755 
+21:18:38:382	f254	You specified default wallet address, it is good for tests only, for normal mining you must change it to your wallet address!
+21:18:38:382	f254	ETH: 1 pool is specified
+21:18:38:383	f254	Main Ethereum pool is eu1.ethermine.org:4444
+21:18:38:383	f254	DCR: 0 pool is specified
+21:18:38:427	f254	OpenCL platform: NVIDIA CUDA
+21:18:38:427	f254	AMD OpenCL platform not found 
+21:18:38:506	f254	CUDA initializing...
+
+21:18:38:506	f254	NVIDIA Cards available: 1 
+21:18:38:507	f254	CUDA Driver Version/Runtime Version: 10.1/8.0
+21:18:38:507	f254	GPU #0: GeForce RTX 2080, 8192 MB available, 46 compute units, capability: 7.5  (pci bus 2:0:0)
+21:18:38:507	f254	Total cards: 1 
+21:18:42:513	f254	NVIDIA NVML library not found, temperature monitoring for NVIDIA GPUs disabled.
+21:18:42:514	f254	Driver is not installed! Trying to install it...
+21:18:42:516	f254	Driver is in use, try to start miner with "-driver uninstall" parameter.
+21:18:44:141	f254	SSL: Imported 50 certificates from local storage
+21:18:44:179	f130	ETH: Stratum - connecting to 'eu1.ethermine.org' <172.65.207.106> port 4444 (unsecure)
+21:18:44:220	f130	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xD69af2A796A737A103F12d2f0BCC563a13900E6F", "x"], "id": 2, "method": "eth_submitLogin"}
+
+21:18:44:220	f130	ETH: Stratum - Connected (eu1.ethermine.org:4444) (unsecure)
+21:18:44:243	f254	No pool specified for Decred! Ethereum-only mining mode is enabled
+21:18:44:244	f254	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:18:44:244	f254	ETH: eth-proxy stratum mode
+21:18:44:245	f254	Watchdog enabled
+21:18:44:245	f254	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:18:44:245	f254	
+21:18:44:309	f130	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+21:18:44:309	f130	ETH: Authorized
+21:18:44:310	f130	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+21:18:44:406	f130	buf: {"id":0,"jsonrpc":"2.0","result":["0x95cbe1f054d25e713ab49d0ddb0bd3d6539da1197a7ac7cb7b73c054a9cfb951","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891824"]}
+
+21:18:44:410	7f00	Setting DAG epoch #299(3.34GB)...
+21:18:45:382	f130	buf: {"id":0,"jsonrpc":"2.0","result":["0x2870c47155a2ee801668524e678c5ea99259f0b0818bc1298c2ca73ef7b4baf6","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891824"]}
+
+21:18:45:383	f130	ETH: 11/22/19-21:18:45 - New job from eu1.ethermine.org:4444
+21:18:45:383	f130	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:18:45:384	f130	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:18:45:384	f130	ETH: GPU0 0.000 Mh/s
+21:18:46:424	7f00	Setting DAG epoch #299 for GPU0
+21:18:46:424	7f00	Create GPU buffer for GPU0
+21:18:47:272	f130	buf: {"id":0,"jsonrpc":"2.0","result":["0x9c90eb38e1fd9df0269b86c48efc50c8f4c392566981065b4980682f31702028","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891825"]}
+
+21:18:47:272	f130	ETH: 11/22/19-21:18:47 - New job from eu1.ethermine.org:4444
+21:18:47:272	f130	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:18:47:273	f130	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:18:47:274	f130	ETH: GPU0 0.000 Mh/s
+21:18:47:363	f130	buf: {"id":0,"jsonrpc":"2.0","result":["0x2e002571c0fff89e1b8e1c3448c2b5048f45f01e450a1e35f77d3b263747dbb5","0xbe5c4f9f1a15a55f177bc13b92fca1b049d02e8a378964a0ef284b7c3b4cfedb","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x891825"]}
+
+21:18:47:363	f130	ETH: 11/22/19-21:18:47 - New job from eu1.ethermine.org:4444
+21:18:47:363	f130	target: 0x0000000112e0be82 (diff: 4000MH), epoch 299(3.34GB)
+21:18:47:364	f130	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+21:18:47:364	f130	ETH: GPU0 0.000 Mh/s
+21:18:50:528	e7a4	Quit, please wait...
+21:18:54:632	7f00	GPU0 DAG creation time - 8097 ms
+21:18:54:632	7f00	Setting DAG epoch #299 for GPU0 done
