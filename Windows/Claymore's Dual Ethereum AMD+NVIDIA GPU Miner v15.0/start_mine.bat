@@ -1,1 +1,0 @@
-EthDcrMiner64.exe -epool us2.ethermine.org:4444 -ewal 0xD376b5f31E99e795ecC7ECD899b4b19658A0C6a1 -epsw x -rxboost 1
